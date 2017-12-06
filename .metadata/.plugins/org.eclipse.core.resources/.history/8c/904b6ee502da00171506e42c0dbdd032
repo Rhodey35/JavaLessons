@@ -1,0 +1,30 @@
+package com.core.modules;
+
+import java.text.NumberFormat;
+
+public class Numbers {
+
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+		double doubleValue =1_234_123.12;
+		NumberFormat num = NumberFormat.getNumberInstance();
+		System.out.println("The number is: " + num.format(doubleValue));
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

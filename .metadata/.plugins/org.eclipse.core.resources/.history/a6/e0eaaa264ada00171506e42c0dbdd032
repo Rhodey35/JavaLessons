@@ -1,0 +1,58 @@
+package com.core.modules;
+
+import java.util.Scanner;
+
+public class AMethodofOverloading {
+
+	
+	
+	
+	public static void main(String[] args) {
+	
+		String string1 = getInput("Enter number 1: ");
+		String string2 = getInput("Enter number 2: ");
+		
+		double result = addValues(string1, string2);
+		System.out.println("The answer is: " + result);
+		
+	}
+	
+	static String getInput(String prompt) {
+		System.out.println(prompt);
+		Scanner scanme = new Scanner(System.in);
+		
+		return scanme.nextLine();
+	}
+	
+	/** with trim : The answer is: 3492.41
+		Enter number 1: 
+		1999.99
+		Enter number 2: 
+		1492.42
+		The answer is: 3492.41
+		
+		Enter number 1: 
+		1999.99
+		Enter number 2: 
+		1497.33
+		The answer is: 3497.3199999999997
+				
+	 	**/
+	
+	static double addValues(String string1, String string2) {
+		double double1 = Double.parseDouble(string1.trim());
+		double double2 = Double.parseDouble(string2.trim());
+		double result = double1 + double2;
+		return result;
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+}

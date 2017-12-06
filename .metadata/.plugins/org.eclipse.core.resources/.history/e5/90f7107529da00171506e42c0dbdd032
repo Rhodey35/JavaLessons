@@ -1,0 +1,26 @@
+package com.core.modules;
+
+public class Bugs {
+	
+	
+	
+public static void main(String[] args) {
+
+	String string = null;
+	System.out.println(string);
+	
+	
+	
+	String welcome = "Welcome!";
+	char[] chars = welcome.toCharArray();
+	char lastChar = chars[chars.length];
+	System.out.println(lastChar);
+	
+	
+}
+
+
+
+
+
+}

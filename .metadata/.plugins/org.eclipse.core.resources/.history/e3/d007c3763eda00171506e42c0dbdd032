@@ -1,0 +1,62 @@
+package com.core.modules;
+
+import java.util.Scanner;
+
+public class SwitchingStrings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		
+		
+		Scanner switchscan = new Scanner(System.in);
+		 System.out.println("Tell me the number of your month: ");
+		 String input = switchscan.nextLine();
+		 int monthNumber = Integer.parseInt(input);
+		 
+		 switch(monthNumber) {
+		 case 1:
+			 System.out.println("The month of January");
+			 break;
+		 case 2:
+			 System.out.println("The month of February");
+			 break;
+		 case 3:
+			 System.out.println("The month of March");
+			 break;
+		 case 4:
+			 System.out.println("The month of April");
+			 break;
+		 case 5:
+			 System.out.println("The month of May");
+			 break;
+		 case 6:
+			 System.out.println("The month of June");
+			 break;
+		 case 7:
+			 System.out.println("The month of July");
+			 break;
+		 case 8:
+			 System.out.println("The month of August");
+			 break;
+		 case 9:
+			 System.out.println("The month of September");
+			 break;
+		 case 10:
+			 System.out.println("The month of October");
+			 break;
+		 case 11:
+			 System.out.println("The month of November");
+			 break;
+		 case 12:
+			 System.out.println("The month of December");
+			 break;
+		 default:
+			 System.out.println("This is not a recognized month.");
+		 }
+		 
+	}
+
+}

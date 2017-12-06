@@ -1,0 +1,21 @@
+package com.core.modules;
+
+import java.util.Scanner;
+
+public class Hugs {
+
+	static boolean happy;
+	
+	public static void main(String[] args) {
+		
+		do {
+			Scanner wanttoo = new Scanner(System.in);
+			System.out.println("Do you need a hug? \n#:");
+			String samneedsahug = wanttoo.toString()
+			
+		}while(happy != true)
+
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package com.core.modules;
+
+import java.util.Scanner;
+
+public class Switching {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		
+		
+		Scanner switchscan = new Scanner(System.in);
+		 System.out.println("Guess a number: ");
+		 String input = switchscan.nextLine();
+		 int monthNumber = Integer.parseInt(input);
+		 
+		 switch(monthNumber) {
+		 case 1:
+			 System.out.println("The month of January");
+			 break;
+		 case 2:
+			 System.out.println("The month of January");
+			 break;
+		 case 3:
+			 System.out.println("The month of January");
+			 break;
+		 }
+		 
+	}
+
+}
