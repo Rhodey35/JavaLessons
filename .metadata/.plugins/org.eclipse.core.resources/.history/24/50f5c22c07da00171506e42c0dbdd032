@@ -1,0 +1,15 @@
+package com.core.modules;
+
+import java.util.Date;
+
+public class WorkingDate {
+
+	public static void main(String[] args) {
+
+
+		Date day = new Date();
+		System.out.println(day);
+
+	}
+
+}

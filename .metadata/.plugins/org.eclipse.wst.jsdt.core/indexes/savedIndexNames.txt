@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\akrhodey\git_repos\java_training\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+186614905.index
+467892706.index
+1948351220.index
+89536269.index
+256956877.index
+3287670377.index

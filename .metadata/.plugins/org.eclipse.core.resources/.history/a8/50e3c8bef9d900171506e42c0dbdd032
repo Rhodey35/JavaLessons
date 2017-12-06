@@ -1,0 +1,19 @@
+package com.core.modules;
+
+public class AsistMe {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+		String string1 = "Well Hello There";
+		String string2 = "How are ya";
+		String string3 = "I say with a smile!";
+		String string4 = string1 + ". " + string2 + ", " + string3;
+		System.out.println(string4);
+		
+		
+	}
+
+}

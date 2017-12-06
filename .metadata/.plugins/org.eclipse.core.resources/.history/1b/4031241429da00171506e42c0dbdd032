@@ -1,0 +1,19 @@
+package com.core.modules;
+
+public class Bugs {
+	
+	
+	
+public static void main(String[] args) {
+
+	String string = Null;
+	
+	
+	
+}
+
+
+
+
+
+}
