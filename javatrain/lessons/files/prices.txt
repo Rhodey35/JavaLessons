@@ -1,0 +1,15 @@
+	haddock:			12.0
+	five-spice powder:			12.0
+	curry paste:			12.0
+	apple butter:			12.0
+	amaretto:			12.0
+	swiss cheese:			12.0
+	rhubarb:			12.0
+	pinto beans:			12.0
+	raspberries:			12.0
+	cream:			12.0
+	cheddar cheese:			12.0
+	coconut milk:			12.0
+	rice wine:			12.0
+	paprika:			12.0
+	lobsters:			12.0

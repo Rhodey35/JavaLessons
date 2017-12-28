@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" author="true" classpath="C:\Users\akrhodey\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;../lessons/target/test-classes;lib/commons-io-2.6.jar" destdir="jdocs" doctitle="Rhodes" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="com.lessons.methods,com.example.olive.model,com.lessons.utilities,com.lessons.challenges,com.lessons.core.olive.model,com.example.olive,com.example.fileio,com.lessons.apache,com.lessons.core.olive,com.lessons.core,com.lessons.model" source="1.8" sourcefiles="../lessons/src/main/java/com/lessons/Buggy.java,../lessons/src/main/java/com/lessons/MatchMaking.java,../lessons/src/main/java/com/lessons/GoingLoopy.java,../lessons/src/main/java/com/lessons/Numbers.java,../lessons/src/main/java/com/lessons/App.java,../lessons/src/main/java/com/lessons/Primitives.java,../lessons/src/test/java/com/lessons/AppTest.java,../lessons/src/main/java/com/lessons/DontParseMeMan.java" sourcepath="../lessons/src/main/java;../FileExchange/src;../FileExchange/files;../lessons/src/test/java;src" splitindex="true" use="true" version="true">
+            <link href="file:/C:/Users/akrhodey/git_repos/javatrain/ApacheCommons/jdocs/"/>
+            <link href="https://docs.oracle.com/javase/8/docs/api/"/>
+            <link href="http://docs.oracle.com/javase/8/javafx/api/"/>
+        </javadoc>
+    </target>
+</project>

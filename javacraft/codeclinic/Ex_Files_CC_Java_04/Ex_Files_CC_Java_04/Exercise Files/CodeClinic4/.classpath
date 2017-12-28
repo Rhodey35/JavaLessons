@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Patrick Royal/Desktop/4/jfugue-4.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/akrhodey/git_repos/javacraft/codeclinic/Ex_Files_CC_Java_04/Ex_Files_CC_Java_04/Exercise Files/Jar Files/jfugue-4.0.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

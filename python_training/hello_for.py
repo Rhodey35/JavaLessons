@@ -1,4 +1,4 @@
-""" farwell responses """
+\"\"\" farwell responses \"\"\"
 
 import random
 
