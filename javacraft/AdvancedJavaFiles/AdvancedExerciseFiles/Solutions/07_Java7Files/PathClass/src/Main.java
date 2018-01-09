@@ -7,11 +7,13 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		
-		Path path = Paths.get("loremipsum.txt");
+		Path path = Paths.get("/temp/notloremipsum.txt");
 		
 		System.out.println(path.toString());
 		System.out.println(path.getFileName());
 		System.out.println(path.getNameCount());
+		System.out.println(path.getName(0));
+		System.out.println(path.getName(1));
 		System.out.println(path.getName(path.getNameCount()-1));
 		
 		Path realPath = path.toRealPath(LinkOption.NOFOLLOW_LINKS);
